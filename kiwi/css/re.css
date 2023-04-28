@@ -1,0 +1,94 @@
+@media (max-width:1024px){
+
+
+
+}
+
+@media (max-width:991px){
+
+/*  costom classes*/
+    .text-content{
+        width:100%
+    }
+
+    .navigation-wrap.navbar-brand img{
+        height: 3.8125rem;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+    
+    .packs-section .carousel-item .carousel-caption p{
+        padding: 0 ;
+    }
+
+
+
+
+
+
+}
+@media (max-width:767px){
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+    .top-banner{
+        padding: 10.875rem 0 9.375rem;
+    }
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
+    
+    .packs-section .carousel-item{
+            padding: 11rem 3.125rem;
+    }
+    
+
+    }
+    
+
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
+
+
+
+@media (max-width:330px){
+    
+    
+    .packs-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
+
+}
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+@media (min-width: 992px) {
+        .card-registration-2 .bg-grey {
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        }
+        }
+        
+@media (max-width: 991px) {
+        .card-registration-2 .bg-grey {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        }
+        }
